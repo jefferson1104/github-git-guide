@@ -1,5 +1,18 @@
-# GUIA RAPIDO GIT & GITHUB
-> Este e um guia rapido com explicacoes basicas dos comandos git para utilizar no seu controle de versao de codigo para seus projetos, segue tambem algumas dicas para boas praticas.
+<center>
+  <img src="./assets/banner.jpg">
+
+  <h1>GUIA RAPIDO GIT & GITHUB</h1>
+
+  <a href="https://www.linkedin.com/in/jeffersonsjunior/">
+    <img alt="Made by jefferson1104" src="https://img.shields.io/badge/made%20by-jefferson1104-blue">
+  </a>
+  
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen?color=blue">
+  <br><br>
+</center>
+
+Este e um guia rapido com explicacoes basicas dos comandos git para utilizar no seu controle de versao de codigo para seus projetos, segue tambem algumas dicas para boas praticas.
+
 
 ## GIT
 O git denominado por muitos como um VCS (Version controle service) e um sistema de controle de versao distribuido.
@@ -10,7 +23,7 @@ O github e uma plataforma ou podemos dizer tambem rede social para desenvolvedor
 <hr>
 
 ## CONFIGURACAO INICIAL
-Baixe o git e instale em seu computador de acordo com seu sistema operacional, baixe atraves so site oficial [clicando aqui](https://git-scm.com).
+>Baixe o git e instale em seu computador de acordo com seu sistema operacional, baixe atraves so site oficial [clicando aqui](https://git-scm.com).
 
 
 ### Veja abaixo alguns comandos iniciais de configuracao:
