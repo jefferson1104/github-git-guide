@@ -1,4 +1,4 @@
-<div style="align:center;">
+<div style="align:center; text-align:center; align-items:center;">
   <img src="./assets/banner.jpg">
 
   <h1>GUIA RAPIDO GIT & GITHUB</h1>
