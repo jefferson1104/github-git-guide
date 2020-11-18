@@ -8,10 +8,10 @@
   </a>
   
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen?color=blue">
+  <br>
 </div>
 
 Este e um guia rapido com explicacoes basicas dos comandos git para utilizar no seu controle de versao de codigo para seus projetos, segue tambem algumas dicas para boas praticas.
-
 
 ## GIT
 O git denominado por muitos como um VCS (Version controle service) e um sistema de controle de versao distribuido.
