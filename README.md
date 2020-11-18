@@ -1,4 +1,4 @@
-<div style="align-items:center; justify-content:center; text-align:center">
+<p align="center">
   <img src="./assets/banner.jpg">
 
   <h1>GUIA RAPIDO GIT & GITHUB</h1>
@@ -9,7 +9,7 @@
   
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen?color=blue">
   <br><br>
-</div>
+</p>
 
 Este e um guia rapido com explicacoes basicas dos comandos git para utilizar no seu controle de versao de codigo para seus projetos, segue tambem algumas dicas para boas praticas.
 
