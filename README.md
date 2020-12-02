@@ -29,7 +29,7 @@ _importante frisar que cada nivel de configuracao sobrescrevre os valores do niv
 `$ git config --local user.email "seu.email@email.com"`
 Comandos para criar uma configuracao inicial de nivel de projeto, define os dados de acesso, uma identidade para apenas aquele projeto especifico.
 
-`$ git config --global user.name "Seu nome para exibicao"`
+`$ git config --global user.name "Seu nome para exibicao"`<br>
 `$ git config --global user.email "seu.email@email.com"`
 Comandos para criar uma configuracao inicial de nivel de usuario, define os dados de acesso, uma identidade para apenas um usuario especifico do sistema operacional.
 
