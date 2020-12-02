@@ -25,25 +25,25 @@ O github e uma plataforma ou podemos dizer tambem rede social para desenvolvedor
 ### Veja abaixo alguns comandos iniciais de configuracao:
 _importante frisar que cada nivel de configuracao sobrescrevre os valores do nivel anterior_
 
-`$ git config --local user.name "Seu nome para exibicao"`
-`$ git config --local user.email "seu.email@email.com"`
+`$ git config --local user.name "Seu nome para exibicao"`<br>
+`$ git config --local user.email "seu.email@email.com"`<br>
 Comandos para criar uma configuracao inicial de nivel de projeto, define os dados de acesso, uma identidade para apenas aquele projeto especifico.
 
 `$ git config --global user.name "Seu nome para exibicao"`<br>
-`$ git config --global user.email "seu.email@email.com"`
+`$ git config --global user.email "seu.email@email.com"`<br>
 Comandos para criar uma configuracao inicial de nivel de usuario, define os dados de acesso, uma identidade para apenas um usuario especifico do sistema operacional.
 
-`$ git config --system user.name "Seu nome para exibicao"`
-`$ git config --system user.email "seu.email@email.com"`
+`$ git config --system user.name "Seu nome para exibicao"`<br>
+`$ git config --system user.email "seu.email@email.com"`<br>
 Comandos para criar uma configuracao inicial de nivel sistema para todos os usuarios, define uma configuracao de identidade global com dados de acesso para todos os usuarios do sistema operacional.
 
-`$ git config --global core.editor "Caminho do editor de texto"`
+`$ git config --global core.editor "Caminho do editor de texto"`<br>
 Com este comando voce define qual o editor de texto default do seu git.
 
-`$ git config --list --show-origin`
+`$ git config --list --show-origin`<br>
 Com este comando voce consegue visualizar onde esta armazenado o seu arquivo de configuracao do git.
 
-`$ git config --list`
+`$ git config --list`<br>
 Com este comando voce consegue visualizar os dados definidos na configuracao atual do seu git.
 
 **abaixo segue uma sequencia de comandos que editam as configuracoes de cores do seu git:**
@@ -102,52 +102,52 @@ Transfere ou atualiza seu REPOSITORIO REMOTO com os novos arquivos criados/modif
 
 ## PRINCIPAIS COMANDOS
 
-`$ git init`
+`$ git init`<br>
 Inicia um repositorio vazio no seu projeto.
 
-`$ git add * `
+`$ git add * `<br>
 Transfere todos os arquivos criados/modificados do seu projeto para o INDEX (area temporaria).
 
-`$ git commit -m "descricao do seu commit"`
+`$ git commit -m "descricao do seu commit"`<br>
 Transfere os arquivos criados/modificados da sua INDEX (area temporaria) para seu HEAD (repositorio local), identificando pela descricao do commit o que ele esta atualizando/incrementando.
 
-`$ git commit --amend -m "atualiza a descricao do commit"`
+`$ git commit --amend -m "atualiza a descricao do commit"`<br>
 Caso voce tenha feito um commit e nao gostou da sua descricao, e possivel alterar esta descricao executando este comando antes de fazer um push para seu REPOSITORIO REMOTO.
 
-`$ git status`
+`$ git status`<br>
 exibe os arquivos criados/modificados que estao na sua INDEX (area temporaria) prontos para ir ao seu HEAD (repositorio local).
 
-`$ git clone usuário@servidor:/caminho/para/o/repositório`
+`$ git clone usuário@servidor:/caminho/para/o/repositório`<br>
 Com este comando voce pode clonar um REPOSITORIO REMOTO, baixar todo o codigo fonte para sua maquina local.
 
-`$ git remote add origin usuário@servidor:/caminho/para/o/repositório.`
+`$ git remote add origin usuário@servidor:/caminho/para/o/repositório.`<br>
 Com este comando voce pode adicionar em sua WORKSPACE a conexao de um REPOSITORIO REMOTO e desta maneira atualizar modificando ou inserindo novos arquivos.
 
-`$ git checkout -b "nome da branch"`
+`$ git checkout -b "nome da branch"`<br>
 cria uma nova branch (ramificacao) no seu projeto.
 
-`$ git branch`
+`$ git branch`<br>
 Lista as todas as branchs (ramificacoes) existentes no seu projeto.
 
-`$ git checkout "nome da branch"`
+`$ git checkout "nome da branch"`<br>
 Com este comando voce vai para uma determinada versao ou ramificacao do seu projeto.
 
-`$ git merge "nome da branch"`
+`$ git merge "nome da branch"`<br>
 Com este comando e possivel voce fazer incluir na branch (ramificacao) atual as alteracoes feitas ou criadas em outra branch, desta forma incluindo partes de codigos/arquivos, atualizando arquivos e etc... 
 
-`$ git branch -d "nome da branch"`
+`$ git branch -d "nome da branch"`<br>
 este comando voce deleta uma ramificacao (brach) do seu projeto.
 
-`$ git log`
+`$ git log`<br>
 este comando lista todos os commits do seu branch (ramificacao).
 
-`$ git fetch`
+`$ git fetch`<br>
 Atualiza/transfere todos os branchs existentes no REPOSITORIO REMOTO para seu HEAD (repositorio local), necessario fazer um *"$ git pull"* logo apos executar este comando.
 
-`$ git pull`
+`$ git pull`<br>
 Transfere seus arquivos criados/modificados existentes no seu REPOSITORIO REMOTO para o HEAD (repositorio local) sincronizando/atualizando seu workspace e vice-versa.
 
-`$ git push -u origin master`
+`$ git push -u origin master`<br>
 Transfere e atualiza seus arquivos criados/modificados do seu repositorio local para seu REPOSITORIO REMOTO na branch MASTER.
 
 <hr>
